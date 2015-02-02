@@ -1,0 +1,11 @@
+<script type="text/javascript">
+
+var div1 = document.getElementById('1st_div_id');
+
+var div2 = document.getElementById('2nd_div_id');
+
+var parent = div1.parentNode;
+
+parent.insertBefore(div1, div2);
+
+</script>
